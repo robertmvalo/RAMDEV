@@ -7,10 +7,11 @@
     <meta name="description" content="We build Website for Small business and big Business At Affordable price.">
     <meta name="Keywords" content="Web Development, Web Design">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/utility.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
     <title>RAMDEV! WEBSITE.</title>
 </head>
@@ -18,7 +19,7 @@
   <header>
       <section id="head-section">
           <!-- <div class="container"> -->
-              <nav class="navbar">
+              <!-- <nav class="navbar">
                   <img src="./images/logo.jpg" alt="" class="brand">
                   <h1 class="logo"><a href="#"><span>RAM</span>DEV!</a></h1>
                   <ul class="links">
@@ -26,6 +27,27 @@
                       <li><a href="about.html">ABOUT</a></li>
                       <li><a href="#grow-business">CONTACT</a></li>
                   </ul>
+              </nav> -->
+              <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><h1 class="logo"><span>RAM</span>DEV!</h1></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#grow-business">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </nav>
               <div class="show-case">
                   <h1>WHY WE NEED A WEBSITE FOR OUR BUSINESS?</h1>
@@ -48,7 +70,7 @@
           <div class="flex-direction">
               <h2>Benefits Of Websites.</h2>
               <p>There's ernomous of benefits if you got a website.To mention few: Communication between sellers and buyers becomes easy, it cuts costs,the presence online is 24/7.... </p>
-              <a href="more.html" class="btn-dark">For More <span class="dot">...</span></a>
+              <a href="more.html" class="btn-own">For More <span class="dot">...</span></a>
 
           </div>
           <div class="flex-column">
@@ -114,15 +136,16 @@
       </section>
 
   </main>
-  <footer id="address">
-      
-           <div class="direction">
-               <h3 class="location-h3"><span>RAM</span>DEV!</h3>
-        <p><i class="fa fa-location-arrow" aria-hidden="true"></i>146 Madikizela street, Sandton.</p>
-        <p><i class="fa fa-phone-square" aria-hidden="true"></i>+27 (011) 234 107-8743</p>
-
-      </div>
-      <div class="bottom">
+  <section id="address-1">
+    <div class="direction">
+        
+        <ul>
+            <li><h3 class="location-h3"><span>RAM</span>DEV!</h3></li>
+          <li><i class="fas fa-location-arrow"></i>Sandhurst,Sandton.</li>
+          <li><i class="fas fa-mobile-alt"></i>+27 (0)834 33 6068</li>
+        </ul>
+    </div>  
+    <div class="bottom">
         <p>Also Available On  </p>
         <img src="./images/skype.png" alt="skype">
         <img src="./images/whatsapp (1).png" alt="whatsapp">
@@ -131,13 +154,19 @@
         <img src="./images/pinterest.png" alt="pinterest">
         
        
-      </div>  
-   
-  </footer>
-  <footer id="address" class="address">
-      <small> copyright &copy<script type="text/javascript">
+    </div> 
+  </section>  
+    
+   <footer id="address"> 
+    <div class="container">
+           <div  class="address">
+       <p> copyright &copy<script type="text/javascript">
         document.write(new Date().getFullYear());
-      </script> RAMDEV!</small>
+          </script> RAMDEV!</p>
+    </div>
+       </div> 
+    
+       
   </footer>
 
   <script>
@@ -154,5 +183,6 @@
 </script>
     
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>
