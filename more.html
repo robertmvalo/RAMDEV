@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAMDEV!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./css/utility.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
+</head>
+<body>
+  <main id="main">
+    <nav class="navbar">
+      
+          <a href="index.html" class="btn-primary " id="go-back"><i class="fas fa-chevron-left" ></i>Go Back</a>
+      
+    </nav>
+    <header id="benefits-showcase">
+        <div class="bene-showcase">
+            <h1>SOME OF THE BENEFITS OF A WEBSITE.</h1>
+            <p>There is a lot of benefits but will just mention 
+                few of them. </p>
+        </div>
+    </header>
+     <section id="flex-about">
+      <div class="container"> 
+           
+          <div class="card">
+                <h3>Look professional</h3> 
+               <p>There's many of benefits if you got a website:It shows <span class="business">professionalism</span> in doing business.Instead of being a shop along a street, having a website shows that you're serious with your business.Your business will reach to many customers beyond your neighbourhood.</p>
+                <img src="https://images.unsplash.com/photo-1477013743164-ffc3a5e556da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="google search">  
+          </div>
+            
+           <div class="card">
+                <h3>IT IS AFFORDABLE</h3>
+                 <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="printing papers"> 
+           <p>Printing catalogs,flyers and bronchures needs alot of money.So having a website will <span class="business"> help to save money</span>.</p>
+           </div>
+          
+           <div class="card">
+             <h3>Where to find customers</h3>
+              <img src="https://images.unsplash.com/photo-1526045612212-70caf35c14df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+            <p>Today unlike those years people spend alot of time on the web.So if you got a site online then you know <span class="business">where to find your customers</span> .People are always on the web searching for information.</p> 
+           </div>
+        
+       </div>
+        
+    </section> 
+    <section id="grow-business">
+      <div class="grow-1">
+          <h2>Ready to grow your business? </h2>
+              <p>Your website is fully responsive so visitors can view your content from their choice of device.</p>
+              <form action="process.php" method="POST">
+                <label for="name" id="name">Name</label>
+              <input type="text" id="name" placeholder="Name">
+              <label for="email" id="email">Email</label>
+              <input type="text" id="email" placeholder="Email">
+              <label for="telephone" id="tel">Telephone</label>
+              <input type="text" id="tele" placeholder="Phone #"> 
+              <button class="btn-primary">submit</button>  
+              </form>
+             
+         
+      </div>
+      <div class="grow-2">
+          <img src="https://images.pexels.com/photos/1005638/pexels-photo-1005638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="market">
+      </div>
+    </section>
+  </main>
+    <footer id="address" class="special-class">
+      
+        <div class="direction">
+            <h3 class="location-h3"><span>RAM</span>DEV!</h3>
+     <p><i class="fa fa-location-arrow" aria-hidden="true"></i>146 Madikizela street, Sandton.</p>
+     <p><i class="fa fa-phone-square" aria-hidden="true"></i>+27 (011) 234 107-8743</p>
+
+   </div>
+   <div class="bottom">
+     <p>Also Available On  </p>
+     <img src="./images/skype.png" alt="skype">
+     <img src="./images/whatsapp (1).png" alt="whatsapp">
+     <img src="./images/twitter (1).png" alt="twitter">
+     <img src="./images/facebook (1).png" alt="facebook" class="facebook">
+     <img src="./images/pinterest.png" alt="pinterest">
+     
+    
+   </div>  
+
+</footer>
+<footer id="address"  class="special-class" >
+   <small> copyright &copy<script type="text/javascript">
+     document.write(new Date().getFullYear());
+    </script> RAMDEV!</small>
+  </footer>
+
+    
+
+<script>
+
+const navbar = document.querySelector('.navbar');
+window.onscroll= function () {
+   if (window.pageYOffset > 100) {
+       navbar.classList.add('top');
+
+   }else {
+       navbar.classList.remove('top');
+   }
+}
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,271 @@
+.navbar h1 a {
+    font-size: 1rem;
+}
+
+.navbar ul li a {
+    padding: 7px 12px;
+}
+
+.show-case h1 {
+    font-size: 25px;
+    padding: 0 10px;
+    
+}
+
+.show-case p {
+    font-size: 18px;
+    padding: 0 5rem;
+    flex-direction:flex;
+    max-width: 100%;
+}
+
+.show-case {
+    padding: 20px 10px;
+}
+
+
+
+#flex-item {
+    margin-top: 10px;
+}
+
+#flex-item .flex-direction{
+    flex: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+
+ .flex-direction p {
+    display: block;
+    padding: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.4rem;
+    width: 100%;
+
+}
+
+
+.flex-column {
+   flex: 100%;
+   max-width: 100%;
+}
+
+
+
+#flexible {
+    flex-direction: column;
+}
+
+.first-column {
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.first-column p {
+    font-size: 18px;
+    line-height: 1.4rem;
+    letter-spacing: 0.2rem;
+    
+}
+
+.first-column h2 {
+    letter-spacing: 0.3rem;
+}
+
+.second-column {
+    flex: 100%;
+    max-width: 100%;
+    background-color: none;
+    margin-top: 1.5rem;
+}
+
+.third-column {
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+#grow-business {
+    flex-direction: column-reverse;
+    margin: 70px 20px;
+}
+
+.grow-1 {
+    margin-top: 10px;
+}
+
+.grow-2 {
+    margin-top: 10px ;
+}
+
+.grow-2 p {
+    font-size: 1.5rem;
+}
+
+#address {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 20vh;
+    font-size: 0.8rem;
+}
+
+.direction {
+   display: inline-flex;
+    margin: 2px 0px;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+
+.bottom {
+    margin-top: 2px;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+.direction h3 {
+   display: none;
+}
+
+.direction p {
+    line-height: 1rem;
+    margin-top: 2px;
+}
+
+
+#ramdev {
+    display: flex;
+   flex-direction: column;         
+   max-width: 100%;
+   margin: 90px 20px;
+}
+
+#ramdev.ram-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    padding: 0.3rem 1.5rem;
+    background-color: none;
+    color: #fff;
+   
+
+}
+
+
+
+.ram-img {
+    margin-top: 10px;
+    flex-direction: column;
+    width: 100%;
+    flex: 4;
+} 
+
+ram-img img {
+    display: inline-block;
+    width: 100%;
+}
+
+#staff {
+    display: flex;
+    flex-direction: column;
+}
+
+#benefits-showcase h1 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 0 1.5rem;
+}
+
+.bene-showcase p{
+    font-size: 1rem;
+    padding: 0 2.5rem;
+}
+
+
+#flex-about {
+    margin: 70px 40px !important;
+}
+
+#flex-about {
+    margin-bottom: 900px !important;
+}
+
+
+
+
+.card {
+    width: 90%;
+    /* height: 100%; */
+    font-size: small;
+
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.card h3 {
+    font-size: 20px;
+}
+
+.card:nth-child(2) {
+    width: 90%;
+    z-index:0 ;
+    /* margin: 5px; */
+}
+
+.card:nth-child(3) {
+    width: 90%;
+
+}
+
+
+.container {
+   display: grid;
+   grid-template-columns: 1fr;
+   width: 100%;
+   height: 90%;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+    margin: 50px;
+}
+
+.card img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* #grow-business {
+    display: none;
+} */
+
+.special-class {
+    display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+

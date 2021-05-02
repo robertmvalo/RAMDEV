@@ -1,0 +1,30 @@
+.btn-light {
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    padding: 7px 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btn-dark {
+    /* background-color: #000; */
+    color: #2868f3;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 7px 5px !important;
+    border-radius: 5px;
+}
+
+
+.logo span {
+    color: #f0b5b5;
+    font-family: cursive;
+}
+
+ .business {
+    font-family: cursive;
+    text-decoration: underline;
+    color: #385feb;
+}
