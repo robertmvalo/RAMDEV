@@ -54,13 +54,14 @@
       <div class="grow-1">
           <h2>Ready to grow your business? </h2>
               <p>Your website is fully responsive so visitors can view your content from their choice of device.</p>
-              <form action="process.php" method="POST">
+              <!-- <form action="process.php" method="POST"> -->
+                <form name="contact" method="POST" data-netlify="true">
                 <label for="name" id="name">Name</label>
-              <input type="text" id="name" placeholder="Name">
+              <input type="text" id="name" placeholder="Name" name="name">
               <label for="email" id="email">Email</label>
-              <input type="text" id="email" placeholder="Email">
+              <input type="text" id="email" placeholder="Email" name="email">
               <label for="telephone" id="tel">Telephone</label>
-              <input type="text" id="tele" placeholder="Phone #"> 
+              <input type="text" id="tele" placeholder="Phone #" name="telephone"> 
               <button class="btn-primary">submit</button>  
               </form>
              
