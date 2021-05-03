@@ -103,7 +103,7 @@ a {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 100%;
+  /* height: 100%; */
   padding: 0 20px;
   position: relative;
   padding: 170px 0;
@@ -542,12 +542,32 @@ hr {
     color: #333333 !important;
   }
 
+ 
+  #showcase-1 {
+    margin-bottom: 170px;
+  }
+  #head-section {
+    height: 100vh;
+  }
 
+  #head-section #showcase-1 {
+    margin-bottom: 100px !important;
+    /* padding: 70px; */
+  }
 
   .navbar .brand {
     display: flex;
     margin-right: 5px;
   }
+
+  .btn-light {
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
 
   .flex-direction h2 {
     font-size: 25px;
