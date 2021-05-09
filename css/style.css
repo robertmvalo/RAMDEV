@@ -402,7 +402,7 @@ input:focus {
   outline-color: #4583fd;
 }
 
-form [data-netlify-recaptcha="true"] {
+form div [data-netlify-recaptcha="true"] {
   margin: 1.5rem;
   padding: 0.5rem 2rem;
 }
