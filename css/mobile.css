@@ -1,3 +1,13 @@
+#head-section {
+    height: 30rem;
+}
+
+
+
+.show-case {
+    padding: 5rem;
+}
+
 .navbar h1 a {
     font-size: 1rem;
 }
@@ -324,6 +334,8 @@ ram-img img {
       margin-bottom: 250px !important;
     
   }
+
+
 
 
   .show-case #btn-1{
